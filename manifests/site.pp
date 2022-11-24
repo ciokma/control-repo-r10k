@@ -1,5 +1,5 @@
 #site.pp
 
-node 'puppetagent00.example.com' {
+node 'ip-172-31-6-47.ec2.internal' {
   include role::webserver
 }
