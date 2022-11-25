@@ -5,7 +5,7 @@ class profile::elastic_logging
   #}
   include ::java
   class { 'elasticsearch':
-    version => '8.5.2',
+    version => '7.9.3',
     status => 'enabled'
   }
 
