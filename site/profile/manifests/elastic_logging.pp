@@ -8,5 +8,9 @@ class profile::elastic_logging
 
   class { 'elasticsearch': 
      ensure => 'present',
+       jvm_options => [
+        '-Xms1g',
+        '-Xmx1g'
+       ]
   }
 }
