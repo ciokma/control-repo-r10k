@@ -7,6 +7,6 @@ class profile::elastic_logging
   include ::java
 
   class { 'elasticsearch': 
-     ensure => 'running',
+     ensure => 'present',
   }
 }
