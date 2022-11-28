@@ -5,5 +5,7 @@ class profile::elastic_logging
     version => 8,
     ensure => 'installed',
   }
+  include ::java
 
+  class { 'elasticsearch': }
 }
