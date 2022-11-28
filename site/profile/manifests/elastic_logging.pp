@@ -8,7 +8,7 @@ class profile::elastic_logging
 
   class { 'elasticsearch':
     version => 8.5.2,
-    status => 'enabled'
+    status => 'enabled',
   }
 
 }
