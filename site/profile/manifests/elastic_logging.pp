@@ -1,7 +1,7 @@
 class profile::elastic_logging
 {
   class { 'elastic_stack::repo':
-    version => 7,
+    version => 6,
   }
   include ::java
 
