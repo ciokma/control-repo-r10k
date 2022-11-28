@@ -6,7 +6,7 @@ class profile::elastic_logging
   class { 'elasticsearch': 
      version => '7.9.3',
      ensure => 'present',
-     status => 'running'
+     status => 'running',
      jvm_options => [
         '-Xms1g',
         '-Xmx1g'
