@@ -1,4 +1,5 @@
 #dependencies
+mod 'puppet-zypprepo', '4.0.1'
 mod 'puppetlabs-stdlib', '8.5.0'
 mod 'puppetlabs-apt', '9.0.0'
 mod 'puppet-yum', '6.1.0'
