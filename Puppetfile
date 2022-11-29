@@ -1,4 +1,5 @@
 #dependencies
+mod 'nanliu-staging', '1.0.3'
 mod 'puppet-zypprepo', '4.0.1'
 mod 'puppetlabs-stdlib', '8.5.0'
 mod 'puppetlabs-apt', '9.0.0'
