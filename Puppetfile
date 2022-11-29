@@ -11,6 +11,6 @@ mod 'puppet-archive', '6.0.2'
 mod 'puppetlabs-java', '8.2.0'
 #mod 'puppet-elastic_stack', '8.0.2'
 #mod 'puppet-elasticsearch', '8.0.2'
-mod 'elasticsearchv8',
+mod 'elkv8',
   :git => 'git@github.com:ciokma/elasticsearchv8.git',
   :branch => 'main'
