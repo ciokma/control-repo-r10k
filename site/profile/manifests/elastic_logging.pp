@@ -4,5 +4,5 @@ class profile::elastic_logging
   #class { 'elasticsearch':
   #  version => '7.9.3'
   #}
-  include ::elasticsearchv8
+  include ::elkv8
 }
