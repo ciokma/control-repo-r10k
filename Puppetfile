@@ -13,7 +13,3 @@ mod 'puppetlabs-java', '8.2.0'
 mod 'elasticsearch-v8',
   :git => 'git@github.com:ciokma/elasticsearchv8.git',
   :branch => 'main'
-mod 'elasticsearch-v8',
-  :git => 'git@github.com:ciokma/elasticsearchv8.git',
-  :branch => 'main',
-  :use_ssh_agent => true
