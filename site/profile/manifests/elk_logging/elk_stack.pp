@@ -1,4 +1,4 @@
-class profile::elastic_logging
+class profile::elk_logging::elk_stack
 {
   #include ::java
   #class { 'elasticsearch':
