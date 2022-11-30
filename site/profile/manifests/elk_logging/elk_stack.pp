@@ -1,8 +1,8 @@
 class profile::elk_logging::elk_stack
 {
   #include ::java
-  #class { 'elasticsearch':
-  #  version => '7.9.3'
-  #}
-  include ::elkv8
+  class { 'elasticsearch_v8_x':
+    version => '8'
+  }
+  #include ::elasticsearch_v8_x
 }
